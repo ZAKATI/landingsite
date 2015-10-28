@@ -1,0 +1,23 @@
+{
+  "name": "Zakati.ma",
+  "homepage": "https://github.com/ZAKATI/landingsite",
+  "authors": [
+    "domino <elwadiamine@gmail.com>"
+  ],
+  "description": "Zakati Landing Site",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.1",
+    "material-design-color-palette": "~1.1.0"
+  }
+}
