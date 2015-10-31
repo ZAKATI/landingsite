@@ -2,9 +2,11 @@
   margin: 0px 0px 0px 0px !important;
 }
 .mega-nav{
-  height: 140px;
+  height: 160px;
 }
-
+.mega-nav-padding{
+  padding-bottom: 10px;
+}
 
 .logo_footer{
     margin-top: -10px !important;
