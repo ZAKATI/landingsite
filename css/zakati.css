@@ -4,3 +4,25 @@
 .mega-nav{
   height: 140px;
 }
+
+
+.logo_footer{
+    margin-top: -10px !important;
+}
+
+.reseau_social_footer {
+    line-height: 2 !important;
+}
+
+.card-panel-taille {
+    padding: 1px !important;
+
+}
+
+.p_type{
+    text-align: justify;
+}
+
+.container{
+   width: 91% !important;
+}
