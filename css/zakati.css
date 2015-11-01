@@ -123,5 +123,13 @@ font-family: kiro !important;
 .icon-menu{
 
 font-size: 1rem !important;
+color: #939393 !important;
+}
+.contribiue{
+font-weight:bold !important;
+color: #FFF !important;
 }
 
+.espace_div{
+margin-bottom: 10px !important;
+}
