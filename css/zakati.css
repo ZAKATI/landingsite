@@ -7,6 +7,9 @@
 .mega-nav-padding{
   padding-bottom: 10px;
 }
+.mega-nav-item {
+  text-decoration: underline;
+}
 
 .logo_footer{
     margin-top: -10px !important;

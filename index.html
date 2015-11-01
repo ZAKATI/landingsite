@@ -7,6 +7,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="lib/Materialize/dist/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="lib/material-design-color-palette/css/material-design-color-palette.min.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="/css/zakati.css" media="screen" title="no title" charset="utf-8">
@@ -16,37 +17,33 @@
     <div class="nav-wrapper">
       <div class="row  valign-wrapper">
         <div class="col s2 valign">1</div>
-        <div class="col s6">
+        <div class="col s7">
           <div class="row">
-            <div class="col s4 center-align">Le concept zakati</div>
-            <div class="col s4 center-align">La zakat et Hassan II</div>
-            <div class="col s4 center-align">La zakat dans le quran</div>
+            <div class="col s4 center-align mega-nav-item">Le concept zakati</div>
+            <div class="col s4 center-align mega-nav-item">La zakat et Hassan II</div>
+            <div class="col s4 center-align mega-nav-item">La zakat dans le quran</div>
           </div>
           <div class="row">
-            <div class="col s4 center-align">JE DONNE</div>
-            <div class="col s4 center-align">JE BENIFICIE</div>
-            <div class="col s4 center-align">Questions/Responses</div>
+            <div class="col s4 center-align mega-nav-item">JE DONNE</div>
+            <div class="col s4 center-align mega-nav-item">JE BENIFICIE</div>
+            <div class="col s4 center-align mega-nav-item">Questions/Responses</div>
           </div>
         </div>
-        <div class="col s4">
+        <div class="col s3">
           <div class="row">
-            <div class="col s1">
-              <a class="btn-flat waves-effect waves-light">M</a>
+            <div class="col s4">
+              <i class="fa fa-envelope-o">&nbsp;</i>
             </div>
-            <div class="col s1">
-              <a class="btn-flat waves-effect waves-light">U</a>
+            <div class="col s4">
+              <i class="fa fa-user">&nbsp;</i>
             </div>
-            <div class="col s10">
-              <form>
-                <div class="input-field col s12">
-                  <input value=""  type="search" class="validate">
-                </div>
-              </form>
+            <div class="col s4">
+              <i class="fa fa-search">&nbsp;</i>
             </div>
           </div>
           <div class="row">
             <div class="col s12">
-              <a class="btn-flat ">Je Contribue</a>
+              <a class="btn-flat grey lighten-1 center-align">Je Contribue</a>
             </div>
           </div>
         </div>
@@ -221,66 +218,96 @@
                 <form class="col s12">
                   <h1>Contactez Nous</h1>
                   <div class="row">
-                    <div class="input-field col s6">
-                      <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                      <label for="first_name">First Name</label>
+                    <div class=" col s5">
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s12">
+                            <input  type="text" class="validate">
+                            <label >Prénom, Nom</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s12">
+                            <input  type="text" class="validate">
+                            <label >Société</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s12">
+                            <input  type="text" class="validate">
+                            <label >E-mail</label>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
-                      <label for="last_name">Last Name</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                      <label for="disabled">Disabled</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="password" type="password" class="validate">
-                      <label for="password">Password</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email</label>
+                    <div class="col s7">
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s12">
+                            <input  type="text" class="validate">
+                            <label >Objet</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s12">
+                            <textarea  class="materialize-textarea"></textarea>
+                            <label >Votre Message</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col s12">
+                          <div class="input-field col s12">
+                            <a class="waves-effect waves-light btn right">Envoyer</a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </form>
               </div>
 
               <footer class="page-footer mdc-bg-grey-200 no-margin">
-                <div class="row">
-                  <div class="col l6 s12">
-                    <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+                <div class="row center ">
+                  <div class="col l3 s12 logo_footer">
+                    <img src="lib/Materialize/image/zakati_logo.png">
+                    <p class="grey-text text-lighten-4"><strong class="grey-text">© Zakati.Capital 2015</strong></p>
+                  </div>
+                  <div class="col l2 s12">
+                    <select class="browser-default">
+                      <option value="" disabled selected>Langage: Français</option>
+                    </select>
+                  </div>
+                  <div class="col l2 s12">
+                    <select class="browser-default">
+                      <option value="" disabled selected>Pays: Maroc</option>
+                    </select>
+                  </div>
+                  <div class="col l2 s12">
+                    <select class="browser-default">
+                      <option value="" disabled selected>Liens: zakati.ma</option>
+                    </select>
                   </div>
                   <div class="col l3 s12">
-                    <h5 class="white-text">Settings</h5>
-                    <ul>
-                      <li><a class="white-text" href="#!">Link 1</a></li>
-                      <li><a class="white-text" href="#!">Link 2</a></li>
-                      <li><a class="white-text" href="#!">Link 3</a></li>
-                      <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
-                  </div>
-                  <div class="col l3 s12">
-                    <h5 class="white-text">Connect</h5>
-                    <ul>
-                      <li><a class="white-text" href="#!">Link 1</a></li>
-                      <li><a class="white-text" href="#!">Link 2</a></li>
-                      <li><a class="white-text" href="#!">Link 3</a></li>
-                      <li><a class="white-text" href="#!">Link 4</a></li>
-                    </ul>
+                    <div class="row ">
+                      <div class="col m3 l3  s3">&nbsp;</div>
+                      <div class="col m2 l2  s2 "><i class="fa fa-facebook small grey-text reseau_social_footer"></i></div>
+                      <div class="col m2 l2  s2"><i class="fa fa-twitter small grey-text reseau_social_footer"></i></div>
+                      <div class="col m2 l2  s2"><i class="fa fa-google-plus small grey-text reseau_social_footer"></i></div>
+                      <div class="col m3 l3 s3">&nbsp;</div>
+                    </div>
                   </div>
                 </div>
+
                 <div class="footer-copyright">
                   <div class="container">
-                    Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Zakati.capital</a>
+
                   </div>
                 </div>
               </footer>
