@@ -69,6 +69,7 @@ font-family: kiro !important;
 
 .btn-telechargement{
     display: block;
+    border-radius: 0px !important;
 }
 
 .espace-bottom{
@@ -175,4 +176,8 @@ margin-bottom: 10px !important;
 .col_card{
 width: 32%  !important;
 margin-left: 10px !important;
+}
+
+.margin-ok{
+    margin-top: 12px !important;
 }
