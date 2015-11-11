@@ -195,4 +195,6 @@ margin-bottom: 17px;
     padding: 11px !important;
     font-family: kiro !important;
 }
-
+#left-slide, #right-slide{
+    padding-top: 50%;
+}
